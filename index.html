@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weekend Rooms - Chalet nel cuore di Foggia</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome per le icone -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header e navigazione -->
+  <header>
+    <nav>
+      <div class="logo">
+        <!-- Sostituisci 'logo.png' con il file del tuo logo -->
+        <img src="logo.png" alt="Weekend Rooms Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#chi-siamo">Chi Siamo</a></li>
+        <li><a href="#camere-servizi">Camere & Servizi</a></li>
+        <li><a href="#prenotazioni">Prenotazioni</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sezione Home -->
+  <section id="home">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Benvenuti a Weekend Rooms</h1>
+        <p>Un accogliente chalet a Foggia, a soli 2 minuti dal centro!</p>
+        <a href="#prenotazioni" class="btn">Prenota Ora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sezione Chi Siamo -->
+  <section id="chi-siamo">
+    <div class="container">
+      <h2>Chi Siamo</h2>
+      <p>
+        La nostra storia nasce dalla passione per l’ospitalità e l’amore per la tradizione. 
+        Weekend Rooms è uno chalet che unisce il comfort moderno a un’atmosfera accogliente, 
+        per farti sentire subito a casa.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sezione Camere e Servizi -->
+  <section id="camere-servizi">
+    <div class="container">
+      <h2>Camere & Servizi</h2>
+      <div class="gallery">
+        <!-- Sostituisci 'camera1.jpg', 'camera2.jpg' ecc. con le foto reali -->
+        <div class="gallery-item">
+          <img src="camera1.jpg" alt="Camera Matrimoniale">
+          <p>Camera Matrimoniale</p>
+        </div>
+        <div class="gallery-item">
+          <img src="camera2.jpg" alt="Camera Doppia">
+          <p>Camera Doppia</p>
+        </div>
+        <div class="gallery-item">
+          <img src="salone.jpg" alt="Salone Accogliente">
+          <p>Salone Accogliente</p>
+        </div>
+        <!-- Aggiungi altri elementi se necessario -->
+      </div>
+      <h3>Servizi</h3>
+      <ul class="services">
+        <li><i class="fas fa-wifi"></i> Wi-Fi gratuito</li>
+        <li><i class="fas fa-coffee"></i> Colazione inclusa</li>
+        <li><i class="fas fa-parking"></i> Parcheggio gratuito</li>
+        <li><i class="fas fa-bed"></i> Camere confortevoli</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sezione Prenotazioni -->
+  <section id="prenotazioni">
+    <div class="container">
+      <h2>Prenotazioni</h2>
+      <p>Compila il modulo sottostante per prenotare il tuo soggiorno!</p>
+      <form id="booking-form">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="arrivo">Data di Arrivo</label>
+          <input type="date" id="arrivo" name="arrivo" required>
+        </div>
+        <div class="form-group">
+          <label for="partenza">Data di Partenza</label>
+          <input type="date" id="partenza" name="partenza" required>
+        </div>
+        <div class="form-group">
+          <label for="messaggio">Messaggio</label>
+          <textarea id="messaggio" name="messaggio" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn">Invia Prenotazione</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Sezione Contatti -->
+  <section id="contatti">
+    <div class="container">
+      <h2>Contatti</h2>
+      <p>
+        Indirizzo: Via Bartolomeo Carella, 3, Foggia<br>
+        Telefono: +39 327 788 0031<br>
+        Email: weekendrooms3@gmail.com
+      </p>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5980.002288766704!2d15.547372156156218!3d41.46089050391482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1339d8586a2b7fa5%3A0x933f91aeb05c21d6!2sVia%20Bartolomeo%20Carella%2C%203%2C%2071121%20Foggia%20FG!5e0!3m2!1sit!2sit!4v1738851257940!5m2!1sit!2sit" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+        
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Weekend Rooms. Tutti i diritti riservati.</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Includi lo script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
